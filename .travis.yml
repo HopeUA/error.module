@@ -5,4 +5,9 @@ node_js:
   - "iojs"
 before_install:
   - npm install -g npm
-script: npm test
+  - npm install -g mocha
+  - npm install -g eslint
+  - npm install
+script:
+  - npm test
+  - eslint .
