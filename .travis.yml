@@ -7,7 +7,7 @@ before_install:
   - npm install -g npm
   - npm install -g mocha
   - npm install -g eslint
-  - npm install
+  - npm install -g babel-eslint
 script:
   - npm test
   - eslint .

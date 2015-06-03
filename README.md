@@ -1,6 +1,6 @@
 API Error class
 ===========================
-![Test passing](https://travis-ci.org/HopeUA/error.module.svg?branch=master)
+[![Test passing](https://travis-ci.org/HopeUA/error.module.svg?branch=master)](https://travis-ci.org/HopeUA/error.module/)
 
 Custom error type for REST applications
 
