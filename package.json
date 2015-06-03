@@ -1,0 +1,19 @@
+{
+  "name": "@hope/error",
+  "version": "1.0.0",
+  "description": "API Error class",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HopeUA/error.module.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "author": "Sergey Sadovoi <sergey@hope.ua>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "chai": "^2.2.0"
+  }
+}
