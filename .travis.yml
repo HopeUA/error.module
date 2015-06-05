@@ -10,4 +10,4 @@ before_install:
   - npm install -g babel-eslint
 script:
   - npm test
-  - eslint .
+  - eslint *.es6

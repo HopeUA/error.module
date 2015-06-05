@@ -8,7 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel/register"
+    "test": "mocha --compilers js:babel/register",
+    "build": "babel index.es6 --out-file index.js"
   },
   "author": "Sergey Sadovoi <sergey@hope.ua>",
   "license": "MIT",
